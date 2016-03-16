@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(222, 222, 222);
+}
+header {
+    background-color: rgb(50, 50, 50);
+    height: 80px;
+    min-width: 1000px;
+}
+.ex {
+	color: #888888;
+}
+#top {
+    width: 100%;
+    height: 80px;
+}
+#top a {
+    text-decoration: none;
+    color: white;
+}
+#top a:hover {
+    text-decoration: underline;
+}
+#top img {
+    height: 30px;
+    margin: 0 50px;
+}
+#nav {
+    margin: 0 80px;
+    padding: 0;
+    float: right;
+    height: 40px;
+    line-height: 80px;
+}
+#nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+figure {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #aaaaaa;
+    text-align: center;
+}
+.pic img {
+    width: 80px;
+    height: 80px;
+}
+article {
+    width: 90%;
+    border: 2px solid rgb(211, 211, 211);
+    padding: 30px;
+    margin: 30px auto;
+    background-color: white;
+    line-height: 30px;
+    word-break: normal;
+    border-right-style: ridge;
+    border-bottom-style: ridge;
+}
+article p {
+    text-indent: 2em;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+th {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border: 1px solid rgb(211, 211, 211);
+    text-align: left;
+}
+td {
+    border: 1px solid rgb(211, 211, 211);
+}
+.line {
+    width: 40%;
+}
+.last {
+    width: 20%;
+}
+.last-row {
+    background-color: rgb(203, 203, 203);
+}
+
+#content h2 {
+    border-left: 3px solid rgb(205, 205, 205);
+    height: 40px;
+    line-height: 40px;
+}
+#submit {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(51, 85, 208);
+    margin-left: -20%
+}
+.text {
+    padding-left: 128px;
+    color: rgb(222, 222, 222);
+}
+.total {
+    padding-left: 80px;
+}
+#message {
+    position: relative;
+}
+#myself {
+    position: absolute;
+    top: 0;
+}
+#text {
+    margin-left: 13%
+}
+form {
+    margin-left: 28%;
+    text-align: left;
+}
+footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+}
