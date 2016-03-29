@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="utf-8" />
+	<title>ife/baidu/task10</title>
+<style>
+	html, body {
+		margin: 0;
+		padding: 0;
+	}
+	.all {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		padding: 20px;
+		border: 2px solid #ccc;
+		box-sizing: border-box;
+	}
+	.all div {
+		width: 150px;
+		margin-bottom: 20px;
+		box-sizing: border-box;
+	}
+	.one {
+		height: 120px;
+		border: 1px solid #f00;
+	}
+	.two {
+		height: 100px;
+		border: 1px solid #f00;
+	}
+	.three {
+		height: 40px;
+		border: 1px solid #f00;
+	}
+	.four {
+		height: 200px;
+		border: 1px solid #00f;
+	}
+	@media screen and (max-width: 641px) {
+		.all {
+		align-items: flex-start;
+		}
+		.four {
+			order: -1;
+		}
+	}
+</style>
+</head>
+<body>
+	<div class="all">
+		<div class="one"></div>
+		<div class="two"></div>
+		<div class="three"></div>
+		<div class="four"></div>
+	</div>
+</body>
+</html>
