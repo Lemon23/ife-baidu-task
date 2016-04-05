@@ -1,0 +1,21 @@
+fieldset{
+	border-radius: 0px;
+	width: 636px;
+}
+input{
+	border-radius: 0px;
+	outline: none;
+	padding: 0 10px; 
+	height: 25px;
+}
+.delete{
+	background-color: #D1BBFF;
+	color: #fff;
+}
+.chart{
+	background-color: #026cca;
+	color: #fff;
+}
+.btn{
+	cursor: pointer;
+}
