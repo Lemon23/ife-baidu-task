@@ -1,0 +1,64 @@
+* {
+    margin: 10px;
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid;
+    background-color: #fff;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+}
+.one {
+    width: 800px;
+    height: 300px;
+    border-color: #FF6666;
+    float: left;
+}
+.two {
+    width: 370px;
+    height: 220px;
+    border-color: #66CCFF;
+}
+.three {
+    width: 150px;
+    height: 150px;
+    border-color: #FF99FF;
+}
+.four {
+    width: 40px;
+    height: 90px;
+    border-color: #33CCCC;
+}
+#choose {
+    text-align: center;
+    border-width: 3px;
+    border-radius: 15px;
+}
+fieldset {
+    width: 850px;
+}
+button {
+    outline: none;
+    border: none;
+    width: 130px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background: #0066FF;
+    color: #fff;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+button:hover {
+    cursor: pointer;
+    background: #33CCFF;
+    color: #fff;
+}
