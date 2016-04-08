@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ife/baidu/task24</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+</head>
+<body>
+<fieldset id="choose">
+	<legend>选择</legend>
+	<button id="preBtn">模拟二叉树先序的搜索</button>
+	<button id="postBtn">模拟二叉树后序的搜索</button>
+    <input type="text" id="keyword" placeholder="输入要查找的关键字">
+    <button id="searchBtn">搜索</button><br/>
+    <button id="deleteBtn">删除 先选中要删除的div后点击</button>
+    <input type="text" id="nodeTag" placeholder="输入要添加节点的内容">
+    <button id="addBtn">添加</button>
+</fieldset>
+    <div class="root">
+        <div class="son_1">A</div>
+        <div class="son_1">B
+            <div class="son_2">a
+                <div class="son_3">1</div>
+                <div class="son_3">2</div>
+                <div class="son_3">3</div>
+                <div class="son_3">4</div>
+            </div>
+            <div class="son_2">b
+                <div class="son_3">5</div>
+                <div class="son_3">6</div>
+            </div>
+        </div>
+        <div class="son_1">C
+            <div class="son_2">c
+                <div class="son_3">7</div>
+                <div class="son_3">8</div>
+            </div>
+            <div class="son_2">d
+                <div class="son_3">9</div>
+                <div class="son_3">10</div>
+            </div>
+            <div class="son_2">e</div>
+        </div>
+    </div>
+    
+<script src="scripts/script.js"></script>
+</body>
+</html>

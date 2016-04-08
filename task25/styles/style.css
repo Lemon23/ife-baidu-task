@@ -1,0 +1,73 @@
+* {
+  margin: 5px;  
+}
+.root {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #FF6666;
+  margin: auto;
+  padding: 15px;
+  width: 1200px;
+  box-sizing: border-box;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  border-radius: 10px;
+}
+.root div {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.son_1 {
+	border:2px solid #FFCC00;
+}
+.son_2 {
+	border:2px solid #FF99FF;
+}
+.son_3 {
+	border:2px solid #33CCCC;
+}
+#choose {
+	text-align: center;
+	border-width: 3px;
+	border-radius: 15px;
+}
+fieldset {
+	width: 1360px;
+}
+legend {
+	font-size: 18px;
+}
+input {
+	width: 200px;
+	margin-left: 20px;
+}
+button {
+  outline: none;
+  border: none;
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background: #0066FF;
+  color: #fff;
+  -webkit-transition: all .6s ease-in-out;
+  -moz-transition: all .6s ease-in-out;
+  -o-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+button:hover {
+	cursor: pointer;
+	background: #33CCFF;
+	color: #fff;
+}
+#focusNode {
+  border: 2px solid #0000FF;
+}
+#new {
+	border: 2px solid #FF0088;
+}
