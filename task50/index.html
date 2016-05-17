@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>ife/baidu/task50/问卷列表页</title>
+	<link rel="stylesheet" type="text/css" href="styles/index.css" />
+</head>
+<body>
+<div id="some"></div>
+<div id="eject">
+	<h4>提示</h4>
+	<div id="txt">
+		<p>确定要删除此问卷？</p>
+		<div>
+			<button class="btn" id="right">确认</button>
+			<button class="btn" id="cancel">取消</button>
+		</div>
+	</div>
+</div>
+<div id="head">
+	<ul>
+		<li class="question" id="manage"><span class="help">?</span><a href="index.html">问卷管理</a></li>
+		<li class="question" id="mine"><a href="index.html">我的问卷</a></li>
+	</ul>
+</div>
+<div id="context">
+	<div id="title">
+		<ul>
+			<li class="one">标题</li>
+			<li class="two">时间</li>
+			<li class="three">状态</li>
+			<li class="four">操作<input id="add" class="add" type="button" value="＋ 新建问卷" ／></li>
+		</ul>
+	</div>
+	<div id="list">
+		<div id="l1">
+			<ul>
+				<li id="chose"><input class="chose" type="radio" name="radio" /></li>
+				<li id="name">这是我的第一份问卷</li>
+				<li id="time">2000-01-01 00:00:00</li>
+				<li id="status">未发布</li>
+				<li id="action">
+					<input class="fin" id="edit" type="button" value="编辑" ／>
+					<input class="fin" id="deletel1" type="button" value="删除" />
+					<input class="fin" id="look" type="button" value="查看数据" ／>
+				</li>
+			</ul>
+		</div>
+		<hr/>
+	</div>
+	<div id="all">
+		<input class="checkAll" type="radio" name="radio" />全选<input class="delete" id="deleteAll" type="button" value="删除" />
+	</div>
+</div>
+<script type="text/javascript" src="scripts/index.js"></script>
+</body>
+</html>

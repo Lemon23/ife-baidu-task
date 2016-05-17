@@ -1,0 +1,235 @@
+* {margin: 0; padding: 0;}
+
+body {
+	font-size: 16px;
+	background-color: rgba(211, 211, 211, 0.3);
+}
+/*页眉链接*/
+a {
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+hr {
+	width: 1000px;
+	height: 1px;
+	margin: 0 auto;
+	border: none;
+	border-top: 2px solid #aaa;
+}
+/*弹出框文字样式*/
+p {
+	padding: 5px 15px;
+}
+h1 {
+	width: 950px;
+	text-align: center;
+	margin: 3px auto;
+}
+/*弹出框标题样式*/
+h4 {
+	background-color: #F5F5F5;
+	padding: 5px 15px;
+	border-radius: 3px;
+}
+textarea {
+	resize: none;
+}
+/*删除提示框样式 点击删除后弹出*/
+#eject {
+	background-color: #fff;
+	width: 400px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	display: none;
+	position: fixed;
+	margin: -100px 0 0 -200px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 1px 2px #000;
+	z-index: 99;
+}
+/*半透明区域 点击可关闭提示框*/
+#some {
+	background-color: rgba(111, 111, 111, 0.8);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	display: none;
+	z-index: 99;
+}
+/*提示框内按钮 确认和取消*/
+.btn {
+	background-color: #fff;
+	width: 140px;
+	height: 35px;
+	margin: 50px 10px 10px 35px;
+	font-size: 16px;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
+.btn:hover {
+	color: #fff;
+	background-color: #FF8800;
+	border: 1px solid #E63F00;
+	cursor: pointer;
+}
+.btn:active {
+	color: #fff;
+	background-color: #EE7700;
+	padding-left: 2px;
+	border: 1px solid #E63F00;
+	cursor: pointer;
+}
+#head {
+	color: #fff;
+	background-color: #FF8800;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	font-size: 20px;
+	z-index: 2;
+}
+#head ul li {
+	display: inline-block;
+	margin: 6px 20px 6px 40px;
+}
+/*‘我的问卷’特殊样式 字体偏小*/
+#mine {
+	font-size: 15px;
+}
+/*‘？’部分作特殊处理 形成图标样式*/
+.help {
+	color: #FF8800;
+	background-color: #fff;
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	margin: 0px 5px;
+	padding: 2px 0px 4px 7px;
+	border-radius: 50%;
+}
+#context {
+	background-color: #fff;
+	width: 1040px;
+	position: absolute;
+	top: 130px;
+	left: 200px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px #aaa;
+}
+#caption {
+	width: 950px;
+	height: 50px;
+	margin: 20px auto;
+}
+#caption:hover {
+	background-color: #FFEFD5;
+}
+#title {
+	width: 945px;
+	height: 44px;
+	font-size: 20px;
+	text-align: center;
+	margin: 0px auto;
+	display: none;
+}
+#chose {
+	background-color: #fff;
+	width: 950px;
+	text-align: center;
+	display: none;
+	cursor: auto;
+}
+.chose {
+	background-color: #ccc;
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+	margin: 20px 10px;
+	border: 1px solid #aaa;
+	cursor: pointer;
+}
+.fin {
+	color: #000;
+	background-color: #fff;
+	width: 100px;
+	height: 25px;
+	font-size: 14px;
+	margin: 0 10px;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+}
+.fin:hover {
+	color: #fff;
+	background-color: #FF8800;
+	border: 1px solid #E63F00;
+	cursor: pointer;
+}
+.fin:active {
+	color: #fff;
+	background-color: #EE7700;
+	padding-left: 2px;
+	border: 1px solid #E63F00;
+	cursor: pointer;
+}
+#plus {
+	color: #888;
+	background-color: rgba(222, 222, 222, 0.8);
+	width: 950px;
+	margin: 20px auto;
+	text-align: center;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+#plus p {
+	margin: 30px auto;
+}
+#plus span {
+	color: #888;
+	font-weight: bold;
+}
+#final {
+	height: 80px;
+	padding: 30px 80px;
+}
+#daytime {
+	height: 35px;
+	width: 200px;
+	font-size: 16px;
+	margin: 0px 160px 0px 20px;
+	padding: 0px 15px;
+}
+#question {
+	width: 950px;
+	margin: 20px auto;
+	text-align: left;
+}
+#question p {
+	margin: 5px 50px;
+}
+#question input {
+	margin: 0 10px;
+}
+#question div:hover {
+	background-color: #FFEFD5;
+}
+.deleteInput {
+	width: 940px;
+	height: 30px;
+	background-color: #FFEFD5;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px #666;
+	display: none;
+	border: none;
+	cursor: pointer;
+}
+.deleteInput:active {
+	text-shadow: none;
+}
+.area {
+	margin-left: 80px;
+}

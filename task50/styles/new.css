@@ -1,0 +1,74 @@
+* {margin: 0; padding: 0;}
+
+body {
+	font-size: 16px;
+	background-color: rgba(211, 211, 211, 0.3);
+}
+/*页眉链接*/
+a {
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+#head {
+	color: #fff;
+	background-color: #FF8800;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	font-size: 20px;
+}
+#head ul li {
+	display: inline-block;
+	margin: 6px 20px 6px 40px;
+}
+/*‘我的问卷’特殊样式 字体偏小*/
+#mine {
+	font-size: 15px;
+}
+/*‘？’部分作特殊处理 形成图标样式*/
+.help {
+	color: #FF8800;
+	background-color: #fff;
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	margin: 0px 5px;
+	padding: 2px 0px 4px 7px;
+	border-radius: 50%;
+}
+#context {
+	background-color: #fff;
+	width: 1040px;
+	position: fixed;
+	top: 130px;
+	left: 200px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px #aaa;
+}
+#addNew {
+	color: #fff;
+	background-color: #FF8800;
+	width: 240px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 125px 400px;
+	border: 1px solid #E63F00;
+	border-radius: 3px;
+}
+#addNew:hover {
+	color: #fff;
+	background-color: #FF8800;
+	border: 1px solid #E63F00;
+	cursor: pointer;
+}
+#addNew:active {
+	color: #fff;
+	background-color: #EE7700;
+	padding-left: 2px;
+	border: 1px solid #E63F00;
+	cursor: pointer;
+}

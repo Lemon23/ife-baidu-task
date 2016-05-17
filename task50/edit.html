@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>ife/baidu/task50/edit-page</title>
+	<link rel="stylesheet" type="text/css" href="styles/edit.css" />
+</head>
+<body>
+<div id="some"></div>
+<div id="eject">
+	<h4>提示</h4>
+	<div id="txt">
+		<p>是否发布问卷？</p>
+		<p id="editDate"></p>
+		<div>
+			<button class="btn" id="right">确认</button>
+			<button class="btn" id="cancel">取消</button>
+		</div>
+	</div>
+</div>
+<div id="head">
+	<ul>
+		<li class="question" id="manage"><span class="help">?</span><a href="index.html">问卷管理</a></li>
+		<li class="question" id="mine"><a href="index.html">我的问卷</a></li>
+	</ul>
+</div>
+<div id="context">
+	<div id="caption"><input id="title" type="text" /><h1>这里是标题</h1></div>
+	<hr/>
+	<div id="question"></div>
+	<div id="plus">
+		<div id="chose">
+			<input id="single" class="chose" type="button" value="单选" />
+			<input id="multiple" class="chose" type="button" value="多选" />
+			<input id="text" class="chose" type="button" value="文本题" />
+		</div>
+		<p><span>＋</span> 添加问题</p>
+	</div>
+	<hr/>
+	<div id="final">
+		问卷截止日期<input id="daytime" class="daytime" type="text" />
+		<input class="fin" id="keep" type="button" value="保存问卷" />
+		<input class="fin" id="issue" type="button" value="发布问卷" />
+	</div>
+</div>
+<script type="text/javascript" src="scripts/edit.js"></script>
+</body>
+</html>

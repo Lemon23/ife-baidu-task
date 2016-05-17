@@ -1,0 +1,193 @@
+* {margin: 0; padding: 0;}	/*重置浏览器默认样式*/
+/*设置通用全局文字大小 页面窗口背景颜色*/
+body {
+	font-size: 16px;
+	background-color: rgba(211, 211, 211, 0.3);
+}
+/*弹出框标题样式*/
+h4 {
+	background-color: #F5F5F5;
+	padding: 5px 15px;
+	border-radius: 3px;
+}
+/*弹出框文字样式*/
+p {
+	padding: 5px 15px;
+}
+hr {
+	width: 1000px;
+	height: 1px;
+	margin: 0 auto;
+	border: none;
+	border-top: 1px solid #aaa;
+}
+/*页眉链接*/
+a {
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+/*全局按钮样式*/
+.fin:hover, .delete:hover, #add:hover, .btn:hover {
+	color: #fff;
+	background-color: #FF8800;
+	border: 1px solid #E63F00;
+	cursor: pointer;
+}
+.fin:active, .delete:active, #add:active, .btn:active {
+	color: #fff;
+	background-color: #EE7700;
+	padding-left: 2px;
+	border: 1px solid #E63F00;
+	cursor: pointer;
+}
+/*删除提示框样式 点击删除后弹出*/
+#eject {
+	background-color: #fff;
+	width: 400px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	display: none;
+	position: fixed;
+	margin: -100px 0 0 -200px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 1px 2px #000;
+	z-index: 99;
+}
+/*半透明区域 点击可关闭提示框*/
+#some {
+	background-color: rgba(111, 111, 111, 0.8);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	display: none;
+	z-index: 99;
+}
+/*提示框内按钮 确认和取消*/
+.btn {
+	background-color: #fff;
+	width: 140px;
+	height: 35px;
+	margin: 80px 10px 10px 35px;
+	font-size: 16px;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
+/*页眉样式 页面窗口顶部固定橘色长条*/
+#head {
+	color: #fff;
+	background-color: #FF8800;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	font-size: 20px;
+}
+#head ul li {
+	display: inline-block;
+	margin: 6px 20px 6px 40px;
+}
+/*‘我的问卷’特殊样式 字体偏小*/
+#mine {
+	font-size: 15px;
+}
+/*‘？’部分作特殊处理 形成图标样式*/
+.help {
+	color: #FF8800;
+	background-color: #fff;
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	margin: 0px 5px;
+	padding: 2px 0px 4px 7px;
+	border-radius: 50%;
+}
+/*内容区域样式*/
+#context {
+	background-color: #fff;
+	position: fixed;
+	width: 1040px;
+	top: 80px;
+	left: 200px;
+}
+/*表头处理样式*/
+#title {
+	height: 50px;
+	background-color: rgba(211, 211, 211, 0.3);
+}
+#title ul li{
+	display: inline-block;
+	margin-top: 8px;
+	margin-left: 100px;
+}
+/*‘新建问卷’按钮样式*/
+.add {
+	color: #fff;
+	background-color: #FF8800;
+	width: 100px;
+	height: 28px;
+	font-size: 15px;
+	margin-left: 110px;
+	top: -3px;
+	border: 1px solid #E63F00;
+	border-radius: 3px;
+}
+.one {
+	margin-right: 200px;
+}
+.two {
+	margin-right: 80px;
+}
+/*问卷列表样式*/
+#l1 {
+	height: 40px;
+	padding-top: 15px;
+}
+#l1:hover {
+	background-color: #FFDDAA;
+}
+#l1 ul li {
+	display: inline-block;
+	margin-right: 47px;
+}
+/*选择<input>按钮*/
+#chose {
+	margin-left: 36px;
+}
+/*时间列表 调整距离*/
+#time {
+	margin-left: 140px;
+}
+/*状态列表 调整距离*/
+#status {
+	margin-left: 30px;
+}
+/*操作列表 调整距离*/
+#action {
+	margin-left: 38px;
+}
+.fin {
+	background-color: #fff;
+	width: 60px;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
+/*全局列表操作区域样式*/
+#all {
+	min-height: 70px;
+	padding: 12px;
+}
+.checkAll {
+	margin: 3px 50px 3px 24px;
+}
+/*全局删除按钮样式*/
+.delete {
+	background-color: #fff;
+	width: 65px;
+	margin-left: 25px;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
