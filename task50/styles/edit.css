@@ -32,7 +32,17 @@ h4 {
 	padding: 5px 15px;
 	border-radius: 3px;
 }
+/*题目编辑区域样式*/
+h5 { 
+	margin-left: 30px;
+	text-shadow: 0px 1px 2px #789;
+	cursor: pointer;
+}
+h5:active {
+	text-shadow: none;
+}
 textarea {
+	margin-top: 10px;
 	resize: none;
 }
 /*删除提示框样式 点击删除后弹出*/
@@ -232,4 +242,8 @@ textarea {
 }
 .area {
 	margin-left: 80px;
+}
+.editQuestion {
+	width: 500px;
+	display: none;
 }
